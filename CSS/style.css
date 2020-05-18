@@ -1,0 +1,26 @@
+h1 {
+	color: blue;
+	text-decoration: bold;
+	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+section > p {
+	color: green;
+	text-decoration: underline;
+}
+
+section + p {
+	color: red;
+}
+
+section ~ p {
+	background-color: yellow;
+}
